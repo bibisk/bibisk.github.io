@@ -29,11 +29,14 @@
         </select><br><br>
 
         <p>Wybierz płeć:</p>
-        <input type="radio" name="gender" value="female">Kobieta
-        <input type="radio" name="gender" value="male">Mężczyzna <br><br>
-       
+        <label for="female">Kobieta:</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">Mężczyzna:</label>
+        <input type="radio" id="male" name="gender" value="male"> <br><br>
 
-        <input type="checkbox" name="personal data" value="Wyrażam zgodę na przetwarzanie moich danych osobowych">Zgoda na przetwarzanie danych osobowych  <br><br>
+
+        <label for="personal data">Zgoda na przetwarzanie danych osobowych:</label>
+        <input type="checkbox" id="personal data" name="personal data" value="Wyrażam zgodę na przetwarzanie moich danych osobowych">  <br><br>
 
         <label for="message">Wiadomość:</label><br>
         <textarea name="message" id="message" ></textarea><br><br>
