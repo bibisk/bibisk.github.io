@@ -13,14 +13,14 @@ h2 {
 }
 
 #gallery {
-	width: 1024px;
+	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 figure {
 	display: inline-block;
-	width: 338px;
+	width: 33%;
 	margin: 0;
 	margin-bottom: 10px;
 }

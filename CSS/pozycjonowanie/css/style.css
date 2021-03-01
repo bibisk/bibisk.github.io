@@ -1,0 +1,46 @@
+.containter {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square {
+    width: 94px;
+    height: 94px;
+    margin: 1px;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px black; 
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.black {
+    background-color: black;
+}
+.orange {
+    background-color: rgb(240, 108, 13);
+}
+.purple {
+    background-color: purple;
+}
+.grey {
+    background-color: grey;
+}
+.pink {
+    background-color: pink;
+}

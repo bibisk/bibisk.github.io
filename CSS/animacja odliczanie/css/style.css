@@ -1,0 +1,23 @@
+div {
+  background-color: black;
+  color: #fff;
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  overflow: hidden;
+}
+.count div {
+  animation-name: countdown;
+  animation-duration: 11s;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(10);
+}
+@keyframes countdown {
+  0% {
+  transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-1000px);
+  }
+
+}
