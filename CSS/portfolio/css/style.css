@@ -21,6 +21,7 @@ hr {
     border: 1px solid #007bff;
     padding: 14px 20px;
     transition: all .3s;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -118,3 +119,18 @@ section {
 
 
 /* About section styles */
+
+.about {
+    text-align: center;
+}
+
+.about .about-img {
+    border-radius: 50%;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    color: #777;
+    line-height: 1.4;
+}
