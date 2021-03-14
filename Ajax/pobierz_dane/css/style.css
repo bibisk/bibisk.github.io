@@ -1,0 +1,13 @@
+#data {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+
+#data:hover {
+    background-color: rgb(148, 231, 231);
+    color: #333;
+}
