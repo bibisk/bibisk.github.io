@@ -40,7 +40,8 @@ body {
     text-transform: uppercase;
 }
 
-.main-menu {
+
+/* .main-menu {
     position: absolute;
     top: 50px;
     left: -240px;
@@ -51,14 +52,29 @@ body {
     padding-top: 20px;
     list-style-type: none;
     transition: all .4s;
+} */
+
+.main-menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    width: 200px;
+    margin: 0;
+    height: 40%;
+    padding-top: 20px;
+    list-style-type: none;
+    transition: all .4s ease-in-out;
+    display: none;
 }
 
-.main-menu.open {
+
+/* .main-menu.open {
     left: 0;
-}
+} */
 
 .main-menu .main-menu-item {
-    padding: 5px 0;
+    padding: 12px 0;
 }
 
 .main-menu .main-menu-item a {
