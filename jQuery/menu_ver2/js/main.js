@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $('.hamburger').click(function() {
         if ($('.main-menu').hasClass('open')) {
-            $('.main-menu').slideUp(1000);
-            $('.main-menu').removeClass('open')
+            $('.main-menu').slideUp(300);
+            $('.main-menu').removeClass('open');
         } else {
-            $('.main-menu').slideDown(1000);
+            $('.main-menu').slideDown(300);
             $('.main-menu').addClass('open');
         }
 
