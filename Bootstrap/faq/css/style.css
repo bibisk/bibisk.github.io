@@ -1,0 +1,7 @@
+.panel-heading {
+    color: goldenrod !important;
+}
+
+.panel-heading:hover {
+    color: #333 !important;
+}
