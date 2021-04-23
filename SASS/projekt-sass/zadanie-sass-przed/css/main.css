@@ -11128,7 +11128,7 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 #main-slider .carousel-caption h1 {
-  font-size: 30px;
+  font-size: 38px;
   margin-top: 24px;
   margin-bottom: 24px;
   letter-spacing: 4px;
@@ -11141,7 +11141,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 #main-slider .carousel-caption .btn-primary {
   margin-top: 4.8px;
-  font-size: 14px;
+  font-size: 22px;
   padding: 10px 12px;
 }
 
@@ -11733,8 +11733,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #about .about-box .icon-about {
   color: #ffffff;
-  width: 64px;
-  height: 64px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
   line-height: 64px;
   background-color: #a5e200;
@@ -11855,7 +11855,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   height: 100%;
   opacity: 0;
   background: rgba(34, 34, 34, 0.8);
-  transition: all .36s;
+  transition: all 1s;
 }
 
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
